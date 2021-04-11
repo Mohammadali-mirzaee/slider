@@ -1,2 +1,2 @@
 # Simple Image slider 
-Loading
+Loading ...
