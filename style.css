@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(69,130,201,1) 100%);}
+.container{
+    position: relative;
+    width: 30vw;
+    height: 80vh;
+    
+}
+.img-container-before,.img-container-after{
+    position: absolute;
+    width: 30vw;
+    height: 80vh;
+}
+.img-container-before{
+    width:15vw ;
+    overflow: hidden;
+    
+}
+
+img{
+    width: 30vw;
+    height: 80vh;
+    object-fit: cover;
+}
+.slider{
+    width: 0.3rem;
+    background: white;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    pointer-events: none ;
+}
